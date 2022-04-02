@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@500&display=swap');
-body{
-    display: flex;
-}
+
 .box, .box div{
     display: inline-block;
 }

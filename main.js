@@ -8,6 +8,7 @@ let nombre = from.action.split("/");
 for(let [id, input] of Object.entries(listaBotonos.children)){
     input.value += ` ${nombre[2]+"/"+nombre[4]}`;
 }
+
 let input = (data)=>{
     let json = {};
     data.forEach(element => {
